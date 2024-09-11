@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AlmodielJProfile/static/css/main.1a34e667.css",
+    "main.js": "/AlmodielJProfile/static/js/main.9c3845a0.js",
+    "static/js/453.4dd8ebec.chunk.js": "/AlmodielJProfile/static/js/453.4dd8ebec.chunk.js",
+    "static/media/me.png": "/AlmodielJProfile/static/media/me.21ce4b4457bb7c9dabc2.png",
+    "index.html": "/AlmodielJProfile/index.html",
+    "main.1a34e667.css.map": "/AlmodielJProfile/static/css/main.1a34e667.css.map",
+    "main.9c3845a0.js.map": "/AlmodielJProfile/static/js/main.9c3845a0.js.map",
+    "453.4dd8ebec.chunk.js.map": "/AlmodielJProfile/static/js/453.4dd8ebec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a34e667.css",
+    "static/js/main.9c3845a0.js"
+  ]
+}
