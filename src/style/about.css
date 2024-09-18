@@ -1,0 +1,51 @@
+.about-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.sub-about{
+    width: 70%;
+    height: 80%;
+    opacity: 0;
+    /* transform: translateX(-200%); */
+    transition: 0.5s;
+}
+.sub-about.show{
+    /* transform: translateX(0%); */
+    width: 70%;
+    height: 80%;
+    opacity: 1;
+    margin-top: 5em;
+    transition: 0.5s;
+}
+.title{
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: start;
+    color: #333;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.about-text{
+    padding: 1rem;
+}
+.study-container{
+    width: 700px;
+    height: 500px;
+}
+
+.study-container img{
+aspect-ratio: 16/9; 
+  width: 700px; 
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
