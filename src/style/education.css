@@ -58,10 +58,21 @@
     color: #666;
   }
   
-  .education-motion1, .education-motion2, .education-motion3, .education-motion4 {
-    transition: opacity 0.5s;
+  .education-motion1{
+    transition: 1s;
   }
-  
+
+  .education-motion2{
+    transition: 2s;
+  }
+
+  .education-motion3{
+    transition: 3s;
+  }
+
+  .education-motion4{
+    transition: 4s;
+  }
   .education-motion-hide1, .education-motion-hide2, .education-motion-hide3, .education-motion-hide4 {
     opacity: 0;
   }

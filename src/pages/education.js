@@ -23,9 +23,9 @@ const [lineFix4, stateLine4] = useState(false)
         window.addEventListener('scroll', lineMotion)
     }
     motionFunction(stateLine,1000)
-    motionFunction(stateLine2,1200)
-    motionFunction(stateLine3,1300)
-    motionFunction(stateLine4,1400)
+    motionFunction(stateLine2,1000)
+    motionFunction(stateLine3,1000)
+    motionFunction(stateLine4,1000)
 
   return (
     <div className='education-container' id='education'>

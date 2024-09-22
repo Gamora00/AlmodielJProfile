@@ -20,8 +20,8 @@ function Project() {
         window.addEventListener('scroll', projectMotion)
     }
     ProjectFucntion(useFix, 3400)
-    ProjectFucntion(useFi2, 3500)
-    ProjectFucntion(useFi3, 3700)
+    ProjectFucntion(useFi2, 3400)
+    ProjectFucntion(useFi3, 3400)
   return (
     <div className='project-container' id='project'>
          <div className='project'>
