@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AlmodielJProfile/static/css/main.2a4acd7a.css",
-    "main.js": "/AlmodielJProfile/static/js/main.d5cdd171.js",
+    "main.css": "/AlmodielJProfile/static/css/main.830f33e0.css",
+    "main.js": "/AlmodielJProfile/static/js/main.d1bbba36.js",
     "static/js/453.4dd8ebec.chunk.js": "/AlmodielJProfile/static/js/453.4dd8ebec.chunk.js",
     "static/media/cutie.JPG": "/AlmodielJProfile/static/media/cutie.add6b0145e03736c7e06.JPG",
     "static/media/study.JPG": "/AlmodielJProfile/static/media/study.44874a406505fbcf7cb7.JPG",
@@ -28,12 +28,12 @@
     "static/media/javaLogo.png": "/AlmodielJProfile/static/media/javaLogo.f46e88cf312f27399ce4.png",
     "static/media/NodeJSLogo.png": "/AlmodielJProfile/static/media/NodeJSLogo.53570f5d099cad809efd.png",
     "index.html": "/AlmodielJProfile/index.html",
-    "main.2a4acd7a.css.map": "/AlmodielJProfile/static/css/main.2a4acd7a.css.map",
-    "main.d5cdd171.js.map": "/AlmodielJProfile/static/js/main.d5cdd171.js.map",
+    "main.830f33e0.css.map": "/AlmodielJProfile/static/css/main.830f33e0.css.map",
+    "main.d1bbba36.js.map": "/AlmodielJProfile/static/js/main.d1bbba36.js.map",
     "453.4dd8ebec.chunk.js.map": "/AlmodielJProfile/static/js/453.4dd8ebec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a4acd7a.css",
-    "static/js/main.d5cdd171.js"
+    "static/css/main.830f33e0.css",
+    "static/js/main.d1bbba36.js"
   ]
 }
