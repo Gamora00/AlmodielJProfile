@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AlmodielJProfile/static/css/main.6577170e.css",
-    "main.js": "/AlmodielJProfile/static/js/main.ca4738bf.js",
+    "main.css": "/AlmodielJProfile/static/css/main.2a4acd7a.css",
+    "main.js": "/AlmodielJProfile/static/js/main.06ce2e1d.js",
     "static/js/453.4dd8ebec.chunk.js": "/AlmodielJProfile/static/js/453.4dd8ebec.chunk.js",
     "static/media/cutie.JPG": "/AlmodielJProfile/static/media/cutie.add6b0145e03736c7e06.JPG",
     "static/media/study.JPG": "/AlmodielJProfile/static/media/study.44874a406505fbcf7cb7.JPG",
@@ -9,8 +9,14 @@
     "static/media/2012.mp3": "/AlmodielJProfile/static/media/2012.d3a2648301bc8e08978b.mp3",
     "static/media/shakeIt.mp3": "/AlmodielJProfile/static/media/shakeIt.e1bd12f3967b82f2a7ca.mp3",
     "static/media/Better.mp3": "/AlmodielJProfile/static/media/Better.8a490face7a834975ae8.mp3",
+    "static/media/DesignCert.jpg": "/AlmodielJProfile/static/media/DesignCert.a1c2e720e77190e1d669.jpg",
+    "static/media/about.2.0.jpg": "/AlmodielJProfile/static/media/about.2.0.7f7f813a8ef2d83ef5c5.jpg",
     "static/media/BaWme.jpg": "/AlmodielJProfile/static/media/BaWme.b5f416c44ac4a481b313.jpg",
+    "static/media/poster.jpeg": "/AlmodielJProfile/static/media/poster.c7d297e154c5b09d903b.jpeg",
+    "static/media/codeFestCert.jpg": "/AlmodielJProfile/static/media/codeFestCert.55713daf4648a732c443.jpg",
+    "static/media/ProfilePic.jpg": "/AlmodielJProfile/static/media/ProfilePic.5ba5d4787a72981fc7d0.jpg",
     "static/media/BootstrapLogo.png": "/AlmodielJProfile/static/media/BootstrapLogo.3216c43c2fde6c121f12.png",
+    "static/media/resume.png": "/AlmodielJProfile/static/media/resume.8c51dac4d58c43e06b2f.png",
     "static/media/logo.png": "/AlmodielJProfile/static/media/logo.eb0a149fae700e3471e7.png",
     "static/media/htmlLogo (2).png": "/AlmodielJProfile/static/media/htmlLogo (2).093652ca5f7bbc034102.png",
     "static/media/CssLogo (2).png": "/AlmodielJProfile/static/media/CssLogo (2).05917b40e98f8d09ccbc.png",
@@ -22,12 +28,12 @@
     "static/media/javaLogo.png": "/AlmodielJProfile/static/media/javaLogo.f46e88cf312f27399ce4.png",
     "static/media/NodeJSLogo.png": "/AlmodielJProfile/static/media/NodeJSLogo.53570f5d099cad809efd.png",
     "index.html": "/AlmodielJProfile/index.html",
-    "main.6577170e.css.map": "/AlmodielJProfile/static/css/main.6577170e.css.map",
-    "main.ca4738bf.js.map": "/AlmodielJProfile/static/js/main.ca4738bf.js.map",
+    "main.2a4acd7a.css.map": "/AlmodielJProfile/static/css/main.2a4acd7a.css.map",
+    "main.06ce2e1d.js.map": "/AlmodielJProfile/static/js/main.06ce2e1d.js.map",
     "453.4dd8ebec.chunk.js.map": "/AlmodielJProfile/static/js/453.4dd8ebec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6577170e.css",
-    "static/js/main.ca4738bf.js"
+    "static/css/main.2a4acd7a.css",
+    "static/js/main.06ce2e1d.js"
   ]
 }
