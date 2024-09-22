@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px){
+    .content{
+        width: 100%;
+        height: 100%;
+        align-items: end;
+        flex-direction: column-reverse;
+        /* background-color: black; */
+    }
+    .names{
+        width: 90%;
+        height: 100%;
+        margin-inline: auto;
+        margin-block: 5px;
+        
+    }
+    .names .name{
+        text-align: center;
+        font-size: 2em;
+    }
+    .summary{
+        width: 100%;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        border: none                                                                                                                                                 ;
+    }
+    .greetings{
+        width: 100%;
+    }
+}

@@ -3,15 +3,19 @@ import Navbar from '../comp/navbar'
 import profile from '../image/BaWme.jpg'
 import ProfileSounds from '../functions/profileSounds'
 import {useState} from 'react'
+import { FaAngleDoubleUp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import '../style/reponsive.css'
+import resume from '../image/resume.png'
 function Modern() {
     const [fix, stateFix] =  useState(false)
    
     const Height = ()=>{
         if (window.scrollY <= 390) {
-            stateFix(true)
+            stateFix(false)
         }
         else{
-            stateFix(false)
+            stateFix(true)
         }
     }
    window.addEventListener("scroll", Height)
@@ -29,15 +33,15 @@ function Modern() {
                             </p>
                         </div>  
                         <div className="content-btn">
-                            <a href="github">GitHub</a>
-                            <a href="resume">Resume</a>
+                            <a href="https://github.com/Gamora00" target='blank'>GitHub<FaGithub className='icon-github'/></a>
+                            <a href={resume} target='blank'>Resume</a>
                         </div>
                     </div>
                     <ProfileSounds picture={profile}/>
                     
                 </div>
 
-                <div className={fix ? "home fix" : "home"}><a href='#Top'>Back to top</a></div>
+                <div className={fix ? "home fix" : "home"}><a href='#Top'><FaAngleDoubleUp className='up'/></a></div>
             </div>
             
    

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --fontPrimaryColor: #fff;
+    --SecondaryColor: #000;
+}
 *{
     padding: 0;
     margin: 0;
@@ -12,39 +16,42 @@ html{
 }
 
 .home{
-    display: block;
-    color: #333;
+    display: none;
+    color:var(--fontPrimaryColor);
     position: fixed;
     background: #333;
-    
-    
+    margin-left: 10px;
+    border-radius: 2px;
 }
-.home a{
+.home .up{
     text-decoration: none;
-    color: #fff;
+    color: var(--fontPrimaryColor);
     font-weight: bold;
+    font-size: 3em;
+    
 }
 .home.fix{
-    display: none;
+    display: flex;
     justify-content: end;
-    width: 100%;
+    width: max-content;
     transition: 0.5s ease-in-out;
     
+}
+.container-main{
+    height: 100vh;
+    background: var(--fontPrimaryColor);
 }
 
 .greetings{
     width: 40%;
-    border: dashed #333 1px;
+    border: dashed var(--SecondaryColor) 1px;
     text-align: center;
     position: relative;
     height: 25px;
-    /* display: flex;
-    align-items: center; */
-    /* margin-bottom: -10px; */
 }
 .greetings::after{
     content: "";
-    background-color: #333;
+    background-color: var(--SecondaryColor);
     position: absolute;
     width: 10px;
     height: 10px;
@@ -54,7 +61,7 @@ html{
 
 .greetings::before{
     content: "";
-    background-color: #333;
+    background-color: var(--SecondaryColor);
     position: absolute;
     width: 10px;
     height: 10px;
@@ -63,10 +70,11 @@ html{
 }
 .greetings p{
     height: 100%;
+    color: var(--SecondaryColor);
 }
 .greetings p span{
     font-weight: bold;
-    color: #333;
+    color: var(--SecondaryColor);
 }
 .container-main{
     width: 100%;
@@ -95,11 +103,12 @@ html{
     font-family:Arial, Helvetica, sans-serif ;
     font-size: 5rem;
     font-weight:900;
-    color: #333;
+    color: var(--SecondaryColor);
 }
 .summary{
     width: 70%;
     margin-top: -20px;
+    color: var(--SecondaryColor);
 }
 
 .content-btn{
@@ -109,24 +118,27 @@ html{
 }
 
 .content-btn a{
-    color:#000;
+    color:var(--SecondaryColor);
     text-decoration: none;
     margin-inline: 10px;
 }
 .content-btn a:first-child{
     display: flex;
     align-items: center;
+    border-radius: 5px;
     justify-content: center;
     width: 120px;
     height: 60px;
-    border: 1px solid #333;
-    box-shadow: #333 5px 10px;
+    color: var(--SecondaryColor);
+    border: 1px solid var(--SecondaryColor);
+    box-shadow: var(--SecondaryColor) 5px 10px;
     transition: 0.5s;
 }
 .content-btn a:first-child:hover{
-    box-shadow: #333 0px 0px;
-    background-color: #333;
-    color: #fff;
+    box-shadow: var(--SecondaryColor) 0px 0px;
+    background-color: var(--SecondaryColor);
+    border-color: var(--SecondaryColor);
+    color: var(--fontPrimaryColor);
     transform: scale(1.1);
 }
 .content-btn a:nth-child(2){
@@ -134,8 +146,9 @@ html{
     align-items: center;
     justify-content: center;
     width: 120px;
+    border-radius: 5px;
     height: 60px;
-    border: 1px solid #333;
+    border: 1px solid var(--SecondaryColor);
 }
 
 .profile{
@@ -145,7 +158,7 @@ html{
     display: flex;
     justify-content: center;
     align-self: center;
-    border: 1px solid #333;
+    border: 1px solid var(--SecondaryColor);
     padding: 2rem;
     transition: 0.5s;
 }
@@ -160,3 +173,9 @@ html{
     padding: 0px;
     transform: rotate(360deg);
 }
+
+.icon-github{
+    font-size: 30px;
+}
+
+/* animation */

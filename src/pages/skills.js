@@ -9,6 +9,12 @@ import NodeJS from '../image/NodeJSLogo.png'
 import python from '../image/pythonLogo.png'
 import java from '../image/javaLogo.png'
 import sqlLogo from '../image/sqlLogo.png'
+import { GoDatabase } from "react-icons/go";
+import { MdOutlineMonitor} from "react-icons/md";
+import { MdDataObject } from "react-icons/md";
+
+
+
 
 function Skills() {
 const [htmlFix, stateHtml] = useState(false)
@@ -25,11 +31,15 @@ const skillsFuntion = (state,value)=>{
 }
 skillsFuntion(stateHtml, 2000)
   return (
-    <div className='skills-container'>
-        <h1 className='skills-title'>Skills</h1>
+    <div className='skills-container' id='skills'>
+       <h1 className='skills-title'>Skills</h1>
+        <div className='webdevelopment'>
+            <p>Website Developer<MdOutlineMonitor className='monitor'/></p>
+        </div>
         <div className='skills-sub'>
+        
             <div className='skills'>
-                <div className='skill'><h1 className='skill-title'>FrondEnd</h1></div>
+                <div className='skill'><h1 className='skill-title'>FrontEnd<MdOutlineMonitor /></h1></div>
                 <div className='Frontend'>
                     <div className={htmlFix ? ' container-front html-container ': 'html-hide'}>
                         <img className='html'src={Html} alt='Html'/>
@@ -55,7 +65,7 @@ skillsFuntion(stateHtml, 2000)
             </div>
 
             <div className='skills'>
-                <div className='skill'><h1 className='skill-title'>BackEnd</h1></div>
+                <div className='skill'><h1 className='skill-title'>BackEnd<MdDataObject /></h1></div>
                 <div className='Backend'>
                     <div className={htmlFix ? ' container-front html-container ': 'html-hide'}>
                         <img className='html'src={NodeJS} alt='nodejs'/>
@@ -73,7 +83,7 @@ skillsFuntion(stateHtml, 2000)
             </div>
 
             <div className='skills'>
-                <div className='skill'><h1 className='skill-title'>Database</h1></div>
+                <div className='skill'><h1 className='skill-title'>Database<GoDatabase /></h1></div>
                 <div className='database'>
                     <div className={htmlFix ? ' container-front html-container ': 'html-hide'}>
                         <img className='sql'src={sqlLogo} alt='sql'/>

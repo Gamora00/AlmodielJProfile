@@ -5,6 +5,9 @@ import About from "./pages/about"
 import Education from './pages/education';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from '../src/pages/skills'
+import Achievement from './pages/achievement';
+import Project from './pages/project';
+import Contact from './pages/contact';
 function App() {
 
   return (
@@ -13,6 +16,9 @@ function App() {
       <About />
       <Education/>
       <Skills />
+      <Achievement />
+      <Project />
+      <Contact />
     </div>
   );
 }

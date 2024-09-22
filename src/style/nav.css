@@ -1,13 +1,27 @@
+:root{
+    --fontPrimaryColor: #fff;
+    --SecondaryColor: #000;
+
+
+
+}
 .git{
     display: flex;
     align-items: center;
-    
+   
+}
+.git a:hover{
+    color: gray;
 }
 .git a{
     text-decoration: none;
-    color: #000;
+    color: var(--SecondaryColor);
+    transition: 0.5s;
 }
-
+.arrow{
+    font-size: 20px;
+    margin-left: 5px;
+}
 .nav{
     max-height: 10%;
     width: 100%;
@@ -15,6 +29,9 @@
     justify-content: space-around;
     align-items: center;
     height: 100px;
+   /*  position: fixed;
+    background-color: var(--fontPrimaryColor);
+    z-index: 99999999999999; */
 }
 
 
@@ -31,7 +48,7 @@
     margin-inline: 10px; ;
 }
 .nav li a{
-    color: #000;
+    color: var(--SecondaryColor);
     text-decoration: none;
     position: relative;
 }
@@ -42,9 +59,22 @@
     width: 0%;
     left: 0;
     bottom: -2px;
-    background-color: #000;
+    background-color: var(--SecondaryColor);
     transition: 0.5s;
 }
+
+/* .dropDownList::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    background-color: var(--fontPrimaryColor);
+    transition: 0.5s;
+} */
+
+
 .nav li a:hover::after{
     width: 100%;
 }
