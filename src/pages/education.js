@@ -24,8 +24,8 @@ const [lineFix4, stateLine4] = useState(false)
     }
     motionFunction(stateLine,1000)
     motionFunction(stateLine2,1200)
-    motionFunction(stateLine3,1400)
-    motionFunction(stateLine4,1500)
+    motionFunction(stateLine3,1300)
+    motionFunction(stateLine4,1400)
 
   return (
     <div className='education-container' id='education'>
