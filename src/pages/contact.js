@@ -10,7 +10,7 @@ function Contact() {
     const [name, setName] = useState(false);
 
     const iconsMotions = ()=>{
-        if(window.scrollY <= 4000){
+        if(window.scrollY <= 3800){
             setName(false)
         }
         else{
