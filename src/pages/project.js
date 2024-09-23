@@ -57,6 +57,16 @@ function Project() {
                 <a href='https://gamora00.github.io/rock-paper/'target='_blank' variant="primary">Rock paper Scissors</a>
             </Card.Body>
         </Card>
+        <Card className={fixState3 ? 'project3 show' : 'projectHide'}>
+            <Card.Header as="h5">TicTacToe Game</Card.Header>
+            <Card.Body>
+                <Card.Title>HTML, CSS AND JAVASCRIPT</Card.Title>
+                <Card.Text>
+                This is a simple Game that I created when I was Senior High School.
+                </Card.Text>
+                <a href='https://gamora00.github.io/Tictactor/'target='_blank' variant="primary">Rock paper Scissors</a>
+            </Card.Body>
+        </Card>
          </div>
     </div>
   )

@@ -5,6 +5,7 @@
         align-items: end;
         flex-direction: column-reverse;
         /* background-color: black; */
+        
     }
     .names{
         width: 90%;
@@ -28,4 +29,5 @@
     .greetings{
         width: 100%;
     }
+    
 }

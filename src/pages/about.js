@@ -4,6 +4,7 @@ import Study from '../image/study.JPG'
 import cutie from '../image/cutie.JPG'
 import {useState} from 'react'
 import ProfilePic from '../image/ProfilePic.jpg'
+import '../style/reponsive.css'
 function About({about}) {
 
   const [fix, stateFix] = useState (false)
